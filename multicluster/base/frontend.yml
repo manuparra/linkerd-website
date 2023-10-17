@@ -16,7 +16,7 @@ data:
 
     server {
       listen 8080;
-      set $east "east";
+      set $east "default";
       set $west "west";
       resolver kube-dns.kube-system.svc.cluster.local;
 
